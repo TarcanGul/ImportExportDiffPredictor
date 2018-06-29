@@ -4,6 +4,11 @@ import quandl
 from sklearn.tree import DecisionTreeRegressor
 from sklearn import model_selection
 
+"""
+The program predicts the import-export difference using the gasoline prices. The reasoning behind this relationship is
+that (my hypothesis) 1- One of Turkey's major import is petroleum and 2- Gasoline price is also a factor for other 
+imports because of transportation needs. 
+"""
 while True:
     try:
         inp = float(input(
